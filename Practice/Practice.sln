@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample1", "sample1", "{901A1C43-7C0A-499D-8ECD-156DDF88555E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XJSerialize", "src\XJSerialize\XJSerialize.csproj", "{DB80DCBF-5075-442B-8112-40D70131C730}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XJSerializeTests", "test\XJSerializeTests\XJSerializeTests.csproj", "{AC85EDFF-A4FE-486A-9BC5-BC7CFA6B833B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB80DCBF-5075-442B-8112-40D70131C730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB80DCBF-5075-442B-8112-40D70131C730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB80DCBF-5075-442B-8112-40D70131C730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB80DCBF-5075-442B-8112-40D70131C730}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC85EDFF-A4FE-486A-9BC5-BC7CFA6B833B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC85EDFF-A4FE-486A-9BC5-BC7CFA6B833B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC85EDFF-A4FE-486A-9BC5-BC7CFA6B833B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC85EDFF-A4FE-486A-9BC5-BC7CFA6B833B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DB80DCBF-5075-442B-8112-40D70131C730} = {901A1C43-7C0A-499D-8ECD-156DDF88555E}
+		{AC85EDFF-A4FE-486A-9BC5-BC7CFA6B833B} = {901A1C43-7C0A-499D-8ECD-156DDF88555E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DD2287F-F352-4203-97A3-A76B7B066589}
+	EndGlobalSection
+EndGlobal
